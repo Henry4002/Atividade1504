@@ -1,4 +1,4 @@
-from Main import gerar_tabuada
+from main import gerar_tabuada
 
 def test_tabuada_2():
     assert gerar_tabuada(2) == [2,4,6,8,10,12,14,16,18,20]
